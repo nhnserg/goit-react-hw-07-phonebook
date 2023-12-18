@@ -21,6 +21,17 @@ export const ItemName = styled.span`
   margin-right: 10px;
   
 `;
+export const ContactAvatar = styled.div`
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid black;
+  background: ${({ $avatar }) => `url(${$avatar}) no-repeat center / cover`};
+`;
+
 
 export const DeleteBtn = styled.button`
   background-color: #e74c3c;
